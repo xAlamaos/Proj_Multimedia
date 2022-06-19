@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#horizontal-bar ul{
+    list-style: none;
+    padding: 0;
+    background-color: #480808;
+    text-align: left;
+    font-size: 30px;
+}
+#horizontal-bar ul li{
+    display: inline;
+}
+#horizontal-bar ul li a{
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .5s;
+}
+#horizontal-bar ul li a:hover{
+    background-color: black;
+}
+#background {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+body{background: black; color: white;}
+body {
+    background-image: url("../img/bg_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;}
+
+img {
+    margin-top: 0px;
+    max-width: 30%;
+    margin-left: 45px;
+}
+p {
+    color: black;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 60px;
+}
+/* Socials */
+#Socials{
+    position: static;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: serif;
+}
+#YT{width: 80px;}
+#FB{width: 80px; margin-left: 20px;}
+#IG{margin-left: 20px; width: 80px;}
+
+.img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img img {width: 50%;}
+
+.img p {
+    width: 30%;
+    text-align: justify;
+    margin: 0;
+}
+p{
+    text-decoration: none;
+    text-align: center;
+    display: inline-table;
+    margin-top: 50px;
+    margin-left: 565px;
+}
+
+footer{
+    padding: 0;
+    bottom: 0;
+    right: 0;
+    clear:both;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: static;
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 20px;}
+
+br{clear: both;}
+
+@media screen and (max-width: 950px){
+    .img img{
+        width: 90%;
+    }
+    .img p{
+        width: 90%;
+    }
+}
